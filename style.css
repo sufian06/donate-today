@@ -1,0 +1,252 @@
+/* hero-area style  */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  h1,h2,h3,h4,h5,h6{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: #121212;
+    margin-bottom: 15px;
+  }
+  p{
+    font-size: 17px;
+    line-height: 28px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    color: #707070;
+    margin-bottom: 15px;
+  }
+  body{
+    font-size: 17px;
+    line-height: 28px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    color: #707070;
+  }
+.hero-area {
+	position: relative;
+	background-image: url("banner-bg.jpg");
+	height: 670px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.hero-content {
+  text-align: center;
+}
+.hero-title {
+  font-size: 65px;
+  color: white;
+  margin-bottom: 20px;
+  line-height: 1.3;
+}
+.hero-content p {
+  color: white;
+  margin-bottom: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+.fill-btn {
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    height: 56px;
+    background: #FF5959;
+    line-height: 56px;
+    display: inline-block;
+    border-radius: 5px;
+    font-family: 'Inter', sans-serif;
+    padding: 0px 20px;
+}
+
+/* donation-area style  */
+
+.section-title {
+    font-size: 45px;
+    margin-bottom: 20px;
+  }
+  .donation-area-content {
+    max-width: 765px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .donate-plans {
+    display: flex;
+    gap: 30px;
+  }
+
+  .pay-ammount {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+  .pay-ammount li a {
+    width: 135px;
+    height: 123px;
+    display: inline-flex;
+    background: #FAFAFA;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #707070;
+  }
+  .pay-ammount li a.active {
+	color: #FF5959;
+	border: 2px solid #FF5959;
+	background: #FFEEEE;
+}
+  .pay-ammount li {
+    list-style: none;
+  }
+  .pay-ammount ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  .donation-area {
+    padding-top: 120px;
+  }
+  
+.active {
+    color: #FF5959;
+    border: 2px solid #FF5959;
+    background: #FFEEEE;
+  }
+  .input-payment input {
+    height: 40px;
+    border: 0;
+    border-bottom: 2px solid #DADADA;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    outline: none;
+  }
+  .input-payment {
+    margin-bottom: 30px;
+  }
+
+
+  /* donation-plan area style  */
+  .donate-plan-area {
+	padding-top: 120px;
+}
+.donate-plans-item {
+    width: 360px;
+    border-radius: 5px;
+    background: #EDF5F6;
+    padding: 60px 25px 25px;
+    text-align: left;
+  }
+
+.donate-plans-item.red {
+    background: #FFEEEE;
+  }
+.donate-plans-item.yellow {
+    background: #FFF4D6;
+  }
+  .donate-plans-item p {
+    font-size: 16px;
+    margin-bottom: 0;
+  }
+
+  .donate-plan-content {
+    width: 1130px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .plan-icon {
+    margin-bottom: 25px;
+  }
+  .plan-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .donate-plan-content p {
+    margin-bottom: 50px;
+  }
+
+  /* latest-post */
+  .latest-post-area {
+    margin-top: 70px !important;
+    width: 1140px;
+    margin: 0 auto;
+  }
+  .heading {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .latest-post-item {
+    display: flex;
+  }
+  .latest-post-text {
+    width: 50%;
+    padding-right: 10px;
+  }
+  .latest-post-img {
+    width: 50%;
+  }
+  .latest-post-img img {
+    width: 100%;
+  }
+
+  /* subscription-area style  */
+  
+.subscription-area {
+  padding-top: 120px;
+  padding-bottom: 130px;
+}
+.subscription-area-content {
+  width: 810px;
+  margin: 0 auto;
+  text-align: center;
+}
+.subscription-area-content p {
+  margin-bottom: 50px;
+}
+.subsctiption-form-wrapper {
+  background: #FFF4D6;
+  padding: 75px 180px;
+}
+.subc-input-payment input {
+  width: 100%;
+  background: #D9D9D9;
+  border: 0;
+  padding: 0 15px;
+  border-radius: 5px 0 0 5px;
+  outline: 0;
+}
+.subc-input-payment {
+  display: flex;
+}
+.subc-input-payment .fill-btn {
+  height: 48px;
+  border-radius: 0 5px 5px 0;
+  font-size: 16px;
+  line-height: 48px;
+  padding: 0 30px;
+}
+
+
+/* footer-area  */
+.footer-area {
+  text-align: center;
+  background: #0B0D17;
+  padding: 45px 0;
+}
+.footer-area h4 {
+    font-size: 28px;
+    color: #FF5959;
+}
+.footer-area p {
+    font-size: 16px;
+    color: #D9DBE1;
+    margin-bottom: 0;
+}
