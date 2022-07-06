@@ -183,6 +183,10 @@ a {
     text-align: center;
     margin-bottom: 30px;
   }
+  .heading h2 {
+    font-size: 45px;
+    margin-bottom: 60px;
+  }
   .latest-post-item {
     display: flex;
   }
